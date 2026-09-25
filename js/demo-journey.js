@@ -57,7 +57,7 @@
       apply: function () {
         if (heroLede) {
           heroLede.textContent =
-            'Electrical, panel upgrades, and residential rewire and service work. Across San Bernardino and the Inland Empire. Damon looks at the job first and puts the price in writing.';
+            'Electrical, panel upgrades, and residential rewire and service work in San Bernardino. Damon looks at the job first and puts the price in writing.';
         }
       }
     },
