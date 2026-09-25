@@ -57,7 +57,7 @@
       apply: function () {
         if (heroLede) {
           heroLede.textContent =
-            'Panel upgrades, residential rewire support, and everyday electrical service across San Bernardino and the Inland Empire. Fixed itemised quotes before we start, Damon as your named lead on site, and a twelve-month workmanship guarantee when we leave.';
+            'Electrical, panel upgrades, and residential rewire and service work. Across San Bernardino and the Inland Empire. Damon looks at the job first and puts the price in writing.';
         }
       }
     },
@@ -65,7 +65,7 @@
       id: 'h1',
       apply: function () {
         if (heroH) {
-          heroH.innerHTML = 'Panel upgrades and service,<br>quoted <em>before</em> we start.';
+          heroH.innerHTML = 'San Bernardino panel<br>upgrades and rewires,<br>priced <em>first.</em>';
         }
       }
     },
@@ -73,7 +73,7 @@
       id: 'service',
       apply: function () {
         if (serviceFirst) {
-          serviceFirst.textContent = 'Electrical service (written programme)';
+          serviceFirst.textContent = 'Panel upgrades (written price)';
         }
       }
     }
@@ -85,7 +85,7 @@
     /* mode: draft | updated */
     if (!barSub) return;
     if (mode === 'updated') {
-      barSub.textContent = 'Draft updated. More changes? Or claim it.';
+      barSub.textContent = 'Draft for Damon at DC Electric. Claim it, preview the rest of the journey, or request a change.';
     } else {
       barSub.textContent = 'Draft for Damon at DC Electric. Claim it, preview the rest of the journey, or request a change.';
     }
